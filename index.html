@@ -877,24 +877,25 @@
 
           <div class="modal-form-cont">
             <input
-              class="input-visually-hidden"
+              class="form-input visually-hidden"
               type="checkbox"
               name="user-privacy"
               id="user-privacy"
               value="true"
             />
-            <label for="user-privacy" class="modal-label"
-              >I accept the terms and conditions of the
-              <a href="" class="agree-privacy">Privacy Policy</a>
+            <label for="user-privacy" class="modal-label">
+              <span class="agree-privacy"
+                ><svg width="10" height="8" fill="none" class="agree-click">
+                  <use href="./images/icons.svg#icon-click"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="agree-text"> Privacy Policy</a>
             </label>
-            <span class="agree-click"
-              ><svg width="10" height="8" fill="none" class="agree-click">
-                <use href="./images/icons.svg#icon-click"></use></svg
-            ></span>
           </div>
-        </form>
 
-        <button type="submit" class="modal-btn">Send</button>
+          <button type="submit" class="modal-btn">Send</button>
+        </form>
       </div>
     </div>
   </body>
