@@ -808,7 +808,7 @@
       </div>
     </footer>
 
-    <div class="modal-overlay">
+    <div class="modal-overlay is-open">
       <div class="modal">
         <button type="button" class="close-btn">
           <svg width="8" height="8" fill="none" class="modal-close">
@@ -879,13 +879,20 @@
             <input
               class="form-input visually-hidden"
               type="checkbox"
+              required
               name="user-privacy"
               id="user-privacy"
               value="true"
             />
             <label for="user-privacy" class="modal-label">
               <span class="agree-privacy"
-                ><svg width="10" height="8" fill="none" class="agree-click">
+                ><svg
+                  width="10"
+                  height="8"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  class="agree-click"
+                >
                   <use href="./images/icons.svg#icon-click"></use>
                 </svg>
               </span>

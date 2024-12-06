@@ -615,9 +615,8 @@ img {
   margin-bottom: 16px;
 }
 
-.modal-form-cont:last-child {
+.modal-form-cont:nth-child(5) {
   margin-bottom: 24px;
-  display: inline-flex;
 }
 
 .form-comment {
@@ -662,18 +661,10 @@ img {
   color: #4d5ae5;
 }
 
-.form-input:checked + .agree-privacy > .agree-click {
+.form-input:checked + .agree-privacy {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
-}
-
-.input-visually-hidden:checked + .agree-click::before {
-  opacity: 0;
-}
-
-.input-visually-hidden:checked + .agree-click::after {
-  opacity: 1;
 }
 
 .modal-btn {
